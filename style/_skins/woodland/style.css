@@ -1,0 +1,119 @@
+
+	/*****************************************************************/
+	/* Base																			  */
+	/*****************************************************************/
+	
+	/* link, menu link color */
+	div.footer input.footerNewsletterText,
+	a:link,a:visited,a:active,
+	ul.sf-menu li.sfHover a
+	{
+		color:#6EA15B;
+	}
+	a:hover
+	{
+		color:#555555;
+	}	
+		
+	/* menu, header and footer background */
+	ul.sf-menu li.current,
+	ul.sf-menu li:hover,
+	div.header input.searchText,
+	div.header input.searchButton,
+	div.footer
+	{
+		background-color:#263620;		
+	}
+	
+	/* menu and search field bootom line */
+	ul.sf-menu li.current,
+	ul.sf-menu li:hover,
+	div.header input.searchText,
+	div.header input.searchButton
+	{
+		border-bottom:solid 1px #59804B;
+	}
+	
+	/* background color for hover submenu */
+	ul.sf-menu li ul li:hover,
+	ul.sf-menu li ul li.sfHover
+	{
+		background-color:#EBF4E8 !important;	
+	}
+	
+	/* border bottom line for submenu */
+	ul.sf-menu li ul li,
+	ul.sf-menu li ul li:hover
+	{
+		border-bottom:solid 1px #EBF4E8;	
+	}
+	
+	/*****************************************************************/
+	/* Buttons																		  */
+	/*****************************************************************/
+	
+	/* button background */
+ 	input.button,	
+	a.button:link,a.button:visited,a.button:active
+	{
+		background-image:url('../../../images/_skins/woodland/button.png');
+	}
+	
+	/* newsletter button */
+	div.footer input.footerNewsletterButton
+	{
+		background-image:url('../../../images/_skins/woodland/newsletter_submit.png');
+	}
+	
+	/* search button */
+	div.header input.searchButton
+	{
+		background-image:url('../../../images/_skins/woodland/search_submit.png');
+	}
+
+	/*****************************************************************/
+	/* Footer																		  */
+	/*****************************************************************/
+	
+	/* text color */
+	div.footer
+	{
+		color:#6E9161;;
+	}
+	
+	/* footer background  */
+	div.footer div.footerMain
+	{	
+ 		background-image:url('../../../images/_skins/woodland/footer_background.png');	
+	}
+	
+	/* footer headers  */
+	div.footer h1.footerHeader
+	{
+		color:#94C183;
+	}
+	
+	/* footer top line  */
+	div.footer div.footerTopBar
+	{
+		border-color:#2D4026;
+	}
+
+	/* footer newsletter input field  */
+	div.footer input.footerNewsletterText,
+	div.footer input.footerNewsletterButton
+	{
+		background-color:#1F2C1A;
+		border-top:solid 1px #1A2616;
+		border-bottom:solid 1px #2D4026;	
+	}
+	
+	/*****************************************************************/
+	/* Footer																		  */
+	/*****************************************************************/
+	
+	/* list bullet */
+	li
+	{
+		background-image:url('../../../images/_skins/woodland/bullet.png');
+	}

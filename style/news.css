@@ -1,0 +1,27 @@
+
+	/*****************************************************************/
+	/* News																			  */
+	/*****************************************************************/
+
+	a.news:link,a.news:visited,a.news:active
+	{
+		line-height:150%;
+		font-size:1.3em;
+		font-weight:bold;
+		text-decoration:none;
+	}
+	a.news:hover
+	{
+		text-decoration:underline;
+	}
+	
+	div.news
+	{
+		margin-bottom:20px;
+	}
+	
+	div.newsText
+	{
+		font-size:1.3em;
+		line-height:150%;
+	}

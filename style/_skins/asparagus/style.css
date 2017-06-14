@@ -1,0 +1,119 @@
+
+	/*****************************************************************/
+	/* Base																			  */
+	/*****************************************************************/
+	
+	/* link, menu link color */
+	div.footer input.footerNewsletterText,
+	a:link,a:visited,a:active,
+	ul.sf-menu li.sfHover a
+	{
+		color:#6E9A41;
+	}
+	a:hover
+	{
+		color:#555555;
+	}	
+		
+	/* menu, header and footer background */
+	ul.sf-menu li.current,
+	ul.sf-menu li:hover,
+	div.header input.searchText,
+	div.header input.searchButton,
+	div.footer
+	{
+		background-color:#354B1E;		
+	}
+	
+	/* menu and search field bootom line */
+	ul.sf-menu li.current,
+	ul.sf-menu li:hover,
+	div.header input.searchText,
+	div.header input.searchButton
+	{
+		border-bottom:solid 1px #88B05C;
+	}
+	
+	/* background color for hover submenu */
+	ul.sf-menu li ul li:hover,
+	ul.sf-menu li ul li.sfHover
+	{
+		background-color:#EAF0E4 !important;	
+	}
+	
+	/* border bottom line for submenu */
+	ul.sf-menu li ul li,
+	ul.sf-menu li ul li:hover
+	{
+		border-bottom:solid 1px #EAF0E4;	
+	}
+	
+	/*****************************************************************/
+	/* Buttons																		  */
+	/*****************************************************************/
+	
+	/* button background */
+ 	input.button,	
+	a.button:link,a.button:visited,a.button:active
+	{
+		background-image:url('../../../images/_skins/asparagus/button.png');
+	}
+	
+	/* newsletter button */
+	div.footer input.footerNewsletterButton
+	{
+		background-image:url('../../../images/_skins/asparagus/newsletter_submit.png');
+	}
+	
+	/* search button */
+	div.header input.searchButton
+	{
+		background-image:url('../../../images/_skins/asparagus/search_submit.png');
+	}
+
+	/*****************************************************************/
+	/* Footer																		  */
+	/*****************************************************************/
+	
+	/* text color */
+	div.footer
+	{
+		color:#769456;
+	}
+	
+	/* footer background  */
+	div.footer div.footerMain
+	{	
+ 		background-image:url('../../../images/_skins/asparagus/footer_background.png');	
+	}
+	
+	/* footer headers  */
+	div.footer h1.footerHeader
+	{
+		color:#A2C67B;
+	}
+	
+	/* footer top line  */
+	div.footer div.footerTopBar
+	{
+		border-color:#3F5924;
+	}
+
+	/* footer newsletter input field  */
+	div.footer input.footerNewsletterText,
+	div.footer input.footerNewsletterButton
+	{
+		background-color:#2B3D19;
+		border-top:solid 1px #253515;
+		border-bottom:solid 1px #3E5724;	
+	}
+	
+	/*****************************************************************/
+	/* Footer																		  */
+	/*****************************************************************/
+	
+	/* list bullet */
+	li
+	{
+		background-image:url('../../../images/_skins/asparagus/bullet.png');
+	}

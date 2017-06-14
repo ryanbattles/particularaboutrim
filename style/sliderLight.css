@@ -1,0 +1,24 @@
+
+	/*****************************************************************/
+	/* Slider light																  */
+	/*****************************************************************/
+	
+	#sliderWrapper
+	{
+		width:944px;
+		height:374px;
+		padding:8px;
+		background:url('../images/slider_light_background.png');
+	}
+	
+	#slider
+	{
+		width:944px;
+		height:334px;	
+		background-image:url('../images/preloader_light.gif');
+	}
+	
+	div.nivo-controlNav
+	{
+		bottom:-50px;
+	}

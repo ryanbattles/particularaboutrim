@@ -1,0 +1,119 @@
+
+	/*****************************************************************/
+	/* Base																			  */
+	/*****************************************************************/
+	
+	/* link, menu link color */
+	div.footer input.footerNewsletterText,
+	a:link,a:visited,a:active,
+	ul.sf-menu li.sfHover a
+	{
+		color:#C3723F;
+	}
+	a:hover
+	{
+		color:#555555;
+	}	
+		
+	/* menu, header and footer background */
+	ul.sf-menu li.current,
+	ul.sf-menu li:hover,
+	div.header input.searchText,
+	div.header input.searchButton,
+	div.footer
+	{
+		background-color:#572F16;		
+	}
+	
+	/* menu and search field bootom line */
+	ul.sf-menu li.current,
+	ul.sf-menu li:hover,
+	div.header input.searchText,
+	div.header input.searchButton
+	{
+		border-bottom:solid 1px #CF7C3C;
+	}
+	
+	/* background color for hover submenu */
+	ul.sf-menu li ul li:hover,
+	ul.sf-menu li ul li.sfHover
+	{
+		background-color:#FAF0E9 !important;	
+	}
+	
+	/* border bottom line for submenu */
+	ul.sf-menu li ul li,
+	ul.sf-menu li ul li:hover
+	{
+		border-bottom:solid 1px #FAF0E9;	
+	}
+	
+	/*****************************************************************/
+	/* Buttons																		  */
+	/*****************************************************************/
+	
+	/* button background */
+ 	input.button,	
+	a.button:link,a.button:visited,a.button:active
+	{
+		background-image:url('../../../images/_skins/desert/button.png');
+	}
+	
+	/* newsletter button */
+	div.footer input.footerNewsletterButton
+	{
+		background-image:url('../../../images/_skins/desert/newsletter_submit.png');
+	}
+	
+	/* search button */
+	div.header input.searchButton
+	{
+		background-image:url('../../../images/_skins/desert/search_submit.png');
+	}
+
+	/*****************************************************************/
+	/* Footer																		  */
+	/*****************************************************************/
+	
+	/* text color */
+	div.footer
+	{
+		color:#C3723F;
+	}
+	
+	/* footer background  */
+	div.footer div.footerMain
+	{	
+ 		background-image:url('../../../images/_skins/desert/footer_background.png');	
+	}
+	
+	/* footer headers  */
+	div.footer h1.footerHeader
+	{
+		color:#FAF0E9;
+	}
+	
+	/* footer top line  */
+	div.footer div.footerTopBar
+	{
+		border-color:#68381A;
+	}
+
+	/* footer newsletter input field  */
+	div.footer input.footerNewsletterText,
+	div.footer input.footerNewsletterButton
+	{
+		background-color:#472612;
+		border-top:solid 1px #3D210F;
+		border-bottom:solid 1px #66371A;	
+	}
+	
+	/*****************************************************************/
+	/* Footer																		  */
+	/*****************************************************************/
+	
+	/* list bullet */
+	li
+	{
+		background-image:url('../../../images/_skins/desert/bullet.png');
+	}

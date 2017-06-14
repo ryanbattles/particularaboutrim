@@ -1,0 +1,194 @@
+	
+	/*****************************************************************/
+	/* Page layout																	  */
+	/*****************************************************************/
+	
+	div.layoutFullWidth,
+	div.layoutRightSidebar,
+	div.layoutLeftSidebar
+	{
+		clear:both;
+	}
+	
+	div.layoutRightSidebar div.layoutRightSidebarRight,
+	div.layoutLeftSidebar div.layoutLeftSidebarLeft
+	{
+		width:290px;
+	}
+	
+	div.layoutRightSidebar div.layoutRightSidebarLeft,
+	div.layoutLeftSidebar div.layoutLeftSidebarRight
+	{
+		width:630px;
+		min-height:600px;	
+	}
+	
+	div.layoutRightSidebar div.layoutRightSidebarLeft
+	{
+		float:left;
+		padding-right:26px;
+		background:url('../images/vertical_divider_right.png') no-repeat top right;
+	}
+
+	div.layoutRightSidebar div.layoutRightSidebarRight
+	{
+		float:right;
+	}	
+
+	div.layoutLeftSidebar div.layoutLeftSidebarRight
+	{
+		float:right;
+		padding-left:26px;
+		background:url('../images/vertical_divider_left.png') no-repeat top left;
+	}
+
+	div.layoutLeftSidebar div.layoutLeftSidebarLeft
+	{
+		float:left;
+	}
+	
+	/*****************************************************************/
+	/* Other layouts																  */
+	/*****************************************************************/
+	
+	/* two column layout 50x50 */
+
+	.c_50 { }
+	
+	.c_50 .c_50_left, 
+	.c_50 .c_50_right 
+	{ 
+		width:48%; 
+	}
+	
+	.c_50 .c_50_left 
+	{ 
+		clear:both; 
+		float:left; 
+	}
+	
+	.c_50 .c_50_right 
+	{ 
+		float:right; 
+	}
+	
+	/* three column layout 33x33x33 */
+
+	.c_33 { }
+	
+	.c_33 .c_33_left, 
+	.c_33 .c_33_center, 
+	.c_33 .c_33_right 
+	{ 
+		width:31.5%;
+	}
+	
+	.c_33 .c_33_left 
+	{ 
+		clear:both; 
+		float:left; 
+	}
+	
+	.c_33 .c_33_center 
+	{ 
+		float:left; 
+		margin-left:2.75%; 
+	}
+	
+	.c_33 .c_33_right 
+	{ 
+		float:right; 	
+	}
+	
+	/* four column layout 25x25x25x25 */
+
+	.c_25 { }
+	
+	.c_25 .c_25_left, 
+	.c_25 .c_25_centerLeft,
+	.c_25 .c_25_centerRight,  
+	.c_25 .c_25_right 
+	{ 
+		width:23%; 
+	}
+	
+	.c_25 .c_25_left 
+	{ 
+		clear:both; 
+		float:left; 
+	}
+	
+	.c_25 .c_25_centerLeft
+	{ 
+		float:left; 
+		margin-left:2.66%; 
+		margin-right:1.33%; 
+	}
+	
+	.c_25 .c_25_centerRight
+	{ 
+		float:left; 
+		margin-left:1.33%;  
+		margin-right:2.66%; 
+	}
+	
+	.c_25 .c_25_right 
+	{ 
+		float:right; 	
+	}
+	
+	/* two column layout 45x55 */
+
+	.c_45_55 { }
+	
+	.c_45_55 .c_45_55_left 
+	{ 
+		clear:both; 
+		float:left; 
+		width:44.5%; 
+	}
+	
+	.c_45_55 .c_45_55_right 
+	{ 
+		float:right; 
+		width:54.5%; 
+	}
+	
+	/* two column list layout 50x50 */
+	
+	ul.c_50 { }
+	
+	ul.c_50 li.c_50_left, 
+	ul.c_50 li.c_50_right 
+	{ 
+		width:43.5%; 
+	}
+	
+	ul.c_50 li.c_50_left 
+	{ 
+		clear:both; 
+		float:left; 
+	}
+	
+	ul.c_50 li.c_50_right 
+	{ 
+		float:right; 
+	}
+	
+	/* two column layout with no width */
+	
+	.c_2n { }
+	
+	.c_2n li.c_2n_left, 
+	.c_2n li.c_2n_right
+	{ 
+		float:left; 
+	}
+	
+	.c_2n li.c_2n_left 
+	{ 
+		clear:both; 
+	}
+	
+	.c_2n li.c_2n_right  { }
+	

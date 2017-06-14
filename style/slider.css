@@ -1,0 +1,79 @@
+
+	/*****************************************************************/
+	/* Slider																		  */
+	/*****************************************************************/
+
+	/* wrapper */
+	#sliderWrapper
+	{
+		width:960px;
+		height:390px;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:30px;
+	}
+	
+	/* slider */
+	#slider
+	{
+		top:20px;
+		width:960px;
+		height:340px;
+		position:relative;
+		background-position:50% 50%;
+		background-repeat:no-repeat;
+	}
+	
+	/* image */
+	#slider img 
+	{
+		top:0px;
+		left:0px;
+		display:none;
+		position:absolute;
+	}
+	
+	/* slider control */
+	div.nivo-controlNav
+	{
+		left:47%;
+		bottom:-42px;
+		position:absolute;
+		
+	}
+	
+	/* slider control element */
+	div.nivo-controlNav a.nivo-control,
+	div.nivo-controlNav a.active
+	{
+		width:15px;
+		height:15px;
+		float:left;
+		font-size:0px;
+		margin-right:5px;
+		color:#F4F4F4;
+		background-repeat:no-repeat;
+		background-position:0px -15px;
+		background-image:url('../images/slider_navigation.png');
+	}
+	
+	div.nivo-controlNav a.active,
+	div.nivo-controlNav a:hover
+	{
+		background-position:0px 0px;
+	}
+	
+	/* slider captions */
+	div.sliderCaption
+	{
+		min-height:60px;
+		padding-top:10px;
+		margin:10px 20px 10px 20px;
+	}
+	
+	div.sliderCaptionVisual { background:url('../images/infobar_icon1.png') no-repeat center right; }
+	div.sliderCaptionSolutions { background:url('../images/infobar_icon2.png') no-repeat center right; }
+	div.sliderCaptionSupport { background:url('../images/infobar_icon3.png') no-repeat center right; }
+	
+	
+	

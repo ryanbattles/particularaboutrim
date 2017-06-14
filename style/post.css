@@ -1,0 +1,187 @@
+
+	/*****************************************************************/
+	/* Post, comments, blog, project details								  */
+	/*****************************************************************/
+
+	/* infobar for comments, post */
+	
+	div.postBlog div.infoBar,
+	div.postSingle div.infoBar,
+	div.comment div.infoBar,
+	div.projectDetails div.infoBar
+	{
+		height:100%;
+		overflow:hidden;
+		font-size:1.1em;
+		margin-bottom:10px;
+		padding:8px 10px 8px 10px;
+		background:url('../images/bar.png') repeat-x;		
+		border-radius:3px;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+	}
+	
+	/* comments, post */
+
+	div.comment,
+	div.postBlog,
+	div.postSingle,
+	div.projectDetails
+	{
+		clear:both;
+		height:100%;
+		overflow:hidden;
+		margin-bottom:20px;
+	}
+	
+	/* comments */
+	
+	h2.commentsHeader
+	{
+		padding-left:30px;
+		background:url('../images/icon_comments.png') no-repeat 0px 3px;	
+	}
+	
+	h2.commentHeader
+	{
+		padding-left:30px;
+		background:url('../images/icon_add_comment.png') no-repeat 0px 3px;		
+	}
+		
+	div.comment div.left
+	{
+		width:116px;
+		float:left;
+	}
+	
+	div.comment div.right
+	{
+		float:right;
+		width:485px;
+		margin-left:19px;
+	}
+	
+	div.commentReply
+	{
+		margin-left:145px;
+	}
+	
+	div.commentReply div.right
+	{
+		width:345px;
+	}
+		
+	div.comment a
+	{
+		font-size:1.3em;
+	}
+	
+	div.comment div.infoBarLeft
+	{
+		width:60%;
+	  	float:left;	
+		font-size:1.3em;
+		font-weight:bold;
+	}
+	
+	div.comment div.infoBarRight
+	{
+		width:40%;
+		float:left;	
+		text-align:right;
+	}
+	
+	div.comment a.reply
+	{
+		float:left;
+		font-weight:normal;
+	}
+	
+	/* project details */
+	
+	div.projectDetails div.infoBar
+	{
+		float:left;
+		width:500px;
+	}
+
+	div.projectDetails div.infoBarButton
+	{
+		float:right;
+		width:100px;
+	}
+	
+	div.projectDetails div.infoBarLeft
+	{
+		width:60%;
+	  	float:left;	
+	}
+	
+	div.projectDetails div.infoBarRight
+	{
+		width:40%;
+		float:left;	
+		text-align:right;
+	}
+	
+	/* single post */
+	
+ 	div.postSingle div.left	
+	{
+		width:220px;
+		float:left;
+		margin-right:25px;
+	}
+	
+	div.postSingle div.right
+	{
+		float:right;
+		width:385px;
+	}
+	
+	div.postSingle div.infoBarLeft
+	{
+		width:60%;
+	  	float:left;	
+	}
+	
+	div.postSingle div.infoBarRight
+	{
+		width:40%;
+		float:left;	
+		text-align:right;
+	}
+	
+	/* blog */
+	
+	div.postBlog
+	{
+		margin-bottom:0px;
+	}
+	
+ 	div.postBlog div.left	
+	{
+		width:220px;
+		float:left;
+		margin-right:25px;
+	}
+	
+	div.postBlog div.right
+	{
+		float:right;
+		width:385px;
+	}
+	
+	div.postBlog div.infoBarLeft
+	{
+		width:60%;
+	  	float:left;	
+	}
+	
+	div.postBlog div.infoBarRight
+	{
+		width:40%;
+		float:left;	
+		text-align:right;
+	}
+	

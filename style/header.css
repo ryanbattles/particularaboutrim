@@ -1,0 +1,211 @@
+
+	/*****************************************************************/
+	/* Header																		  */
+	/*****************************************************************/
+	
+	div.header
+	{
+		height:200px;
+		background-repeat:no-repeat;
+		background-image:url('../images/header_background.png');	
+	}
+	
+	/*****************************************************************/
+	/* Header top																	  */
+	/*****************************************************************/
+	
+	/* height */
+	div.header div.top
+	{
+		height:140px;
+	}
+	
+	/* logo */
+	div.header div.logo
+	{
+		float:left;
+		width:500px;
+		height:inherit;
+		background-repeat:no-repeat;
+		background-image:url('../images/header_logo.png');
+	}
+	
+	/* rss */
+	div.header div.rss
+	{
+		float:right;
+		width:120px;
+		height:84px;
+		margin-top:39px;
+		background-repeat:no-repeat;
+		background-position:0px -84px;	
+	}
+	
+	div.header div.rss:hover
+	{
+		background-position:0px 0px;
+	}
+	
+	/*****************************************************************/
+	/* Header bootom																  */
+	/*****************************************************************/
+	
+	div.header div.bottom
+	{
+		clear:both;
+		margin-top:12px;
+		min-height:37px;
+	}
+
+	/*****************************************************************/
+	/* Search																		  */
+	/*****************************************************************/
+	
+	div.header div.search
+	{
+		width:213px;
+		float:right;
+		margin-top:1px;
+	}
+	
+	/* form inputs */
+	div.header input.searchText,
+	div.header input.searchButton
+	{
+		border:none;
+		line-height:100%;
+	}
+	
+	/* text field */
+	div.header input.searchText
+	{
+		float:left;
+		left:3px;
+		position:relative;
+		border:none;
+		width:150px;
+		color:white;
+		font-size:1.3em;
+		padding:9px 10px 9px 10px;
+		line-height:130% !important;
+		border-radius:3px 0px 0px 3px;		
+		-moz-border-radius:3px 0px 0px 3px;	
+		-webkit-border-radius:3px 0px 0px 3px;	
+	}
+	
+	/* button */
+	div.header input.searchButton
+	{
+		float:right;
+		width:40px;
+		height:35px;
+		cursor:pointer;
+		border-radius:0px 3px 3px 0px;		
+		-moz-border-radius:0px 3px 3px 0px;
+		-webkit-border-radius:0px 3px 3px 0px;
+		background-position:center center;
+		background-repeat:no-repeat;	
+	}
+	
+	/*****************************************************************/
+	/* Menu																			  */
+	/*****************************************************************/
+	
+	div.header div.menu { float:left; position:relative; z-index:99; }
+	
+	ul.sf-menu { font-size:1.2em; }
+	ul.sf-menu li ul { font-size:1em; }
+	
+	.sf-menu ul { display:none; }
+	
+	ul.sf-menu li
+	{
+		margin-top:1px;
+		margin-right:10px;
+		background-image:none;
+	}
+	
+	ul.sf-menu li ul li { margin-top:0px; }
+	
+	/* links */
+	ul.sf-menu a
+	{
+		color:#fff;
+		font-weight:bold;
+		text-decoration:none;
+	 	text-transform:uppercase; 	
+		padding:11px 17px 11px 17px;	
+	}
+	
+	ul.sf-menu a:hover
+	{
+		color:auto;
+	}
+
+	ul.sf-menu li.current,
+	ul.sf-menu li:hover
+	{
+		border-radius:3px;	
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+	}
+	
+	/* background hover for submenu */
+	ul.sf-menu li.sfHover,
+	ul.sf-menu li.sfHover ul
+	{
+		background:#ffffff !important;
+	}
+
+	ul.sf-menu li.sfHover
+	{
+ 	 	border-radius:3px 3px 0px 0px;	
+		-moz-border-radius:3px 3px 0px 0px;	
+		-webkit-border-radius:3px 3px 0px 0px;	
+	}
+	
+	ul.sf-menu li.sfHover ul
+	{
+		padding:10px;
+		border-radius:0px 3px 3px 3px;
+		-moz-border-radius:0px 3px 3px 3px;
+		-webkit-border-radius:0px 0px 3px 3px;
+	}
+		
+	ul.sf-menu li ul
+	{		
+		margin-top:4px;
+		min-width:200px;
+	}
+	
+	ul.sf-menu li ul a
+	{
+		padding:10px;
+		text-transform:none;
+	}
+	
+	ul.sf-menu li ul li,
+	ul.sf-menu li ul li:hover
+	{
+		border-bottom:solid 1px #E7EEF1;	
+	}
+		
+	ul.sf-menu li ul li
+	{
+		padding:0px;
+		line-height:100%;
+		text-transform:none;		
+	}
+	
+	ul.sf-menu li ul li:hover
+	{
+		border-radius:0px;
+		-moz-border-radius:0px;
+		-webkit-border-radius:0px;
+	}
+
+	ul.sf-menu li ul li ul
+	{
+		margin-top:-10px;
+		margin-left:87px;
+	}

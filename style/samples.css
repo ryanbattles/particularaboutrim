@@ -1,0 +1,39 @@
+
+	/*****************************************************************/
+	/* Samples																		  */
+	/*****************************************************************/
+
+	span.skinSample
+	{
+		font-size:0px;
+		top:-2px;
+		position:relative;
+		float:left;
+		width:14px;
+		height:14px;
+		display:block;
+		margin-right:7px;
+		border:solid 1px white;
+	}
+
+	div.skinStart
+	{
+		height:20px;
+		width:216px;
+		border:solid 2px white;
+	}
+	
+	div.skinStart:hover
+	{
+		border:solid 2px black;
+	}
+	
+	.skinDefault 			{ background-color:#448697; }
+	.skinLotus 				{ background-color:#823E3E; }
+	.skinDorado 			{ background-color:#77655E; }
+	.skinWoodland 			{ background-color:#4C713F; }
+	.skinBlackberry 		{ background-color:#77526B; }
+	.skinAsparagus 		{ background-color:#78A04C; }
+	.skinMako 				{ background-color:#585D60; }
+	.skinBluemine 			{ background-color:#217299; }
+	.skinDesert 			{ background-color:#BF6726; }

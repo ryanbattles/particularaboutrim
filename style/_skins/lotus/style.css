@@ -1,0 +1,120 @@
+
+	/*****************************************************************/
+	/* Base																			  */
+	/*****************************************************************/
+	
+	/* link, menu link color */
+	div.footer input.footerNewsletterText,
+	a:link,a:visited,a:active,
+	ul.sf-menu li.sfHover a
+	{
+		color:#A05454;
+	}
+	a:hover
+	{
+		color:#555555;
+	}	
+		
+	/* menu, header and footer background */
+	ul.sf-menu li.current,
+	ul.sf-menu li:hover,
+	div.header input.searchText,
+	div.header input.searchButton,
+	div.footer
+	{
+		background-color:#481F1F;		
+	}
+	
+	/* menu and search field bootom line */
+	ul.sf-menu li.current,
+	ul.sf-menu li:hover,
+	div.header input.searchText,
+	div.header input.searchButton
+	{
+		border-bottom:solid 1px #884B4B;
+	}
+	
+	/* background color for hover submenu */
+	ul.sf-menu li ul li:hover,
+	ul.sf-menu li ul li.sfHover
+	{
+		background-color:#F4E4E4 !important;	
+	}
+	
+	/* border bottom line for submenu */
+	ul.sf-menu li ul li,
+	ul.sf-menu li ul li:hover
+	{
+		border-bottom:solid 1px #F4E4E4;	
+	}
+	
+	/*****************************************************************/
+	/* Buttons																		  */
+	/*****************************************************************/
+	
+	/* button background */
+ 	input.button,	
+	a.button:link,a.button:visited,a.button:active
+	{
+		background-image:url('../../../images/_skins/lotus/button.png');
+	}
+	
+	/* newsletter button */
+	div.footer input.footerNewsletterButton
+	{
+		background-image:url('../../../images/_skins/lotus/newsletter_submit.png');
+	}
+	
+	/* search button */
+	div.header input.searchButton
+	{
+		background-image:url('../../../images/_skins/lotus/search_submit.png');
+	}
+	
+	/*****************************************************************/
+	/* Footer																		  */
+	/*****************************************************************/
+	
+	/* text color */
+	div.footer
+	{
+		color:#A05454;
+	}
+	
+	/* footer background  */
+	div.footer div.footerMain
+	{	
+ 		background-image:url('../../../images/_skins/lotus/footer_background.png');	
+	}
+	
+	/* footer headers  */
+	div.footer h1.footerHeader
+	{
+		color:#EDAEAE;
+	}
+	
+	/* footer top line  */
+	div.footer div.footerTopBar
+	{
+		border-color:#562525;
+	}
+	
+	/* footer newsletter input field  */
+	div.footer input.footerNewsletterText,
+	div.footer input.footerNewsletterButton
+	{
+		background-color:#3B1A1A;
+		border-top:solid 1px #321616;
+		border-bottom:solid 1px #562525;	
+	}
+	
+	/*****************************************************************/
+	/* Footer																		  */
+	/*****************************************************************/
+	
+	/* list bullet */
+	li
+	{
+		background-image:url('../../../images/_skins/lotus/bullet.png');
+	}
+	

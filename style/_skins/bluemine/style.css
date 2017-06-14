@@ -1,0 +1,119 @@
+
+	/*****************************************************************/
+	/* Base																			  */
+	/*****************************************************************/
+	
+	/* link, menu link color */
+	div.footer input.footerNewsletterText,
+	a:link,a:visited,a:active,
+	ul.sf-menu li.sfHover a
+	{
+		color:#3E84AA;
+	}
+	a:hover
+	{
+		color:#555555;
+	}	
+		
+	/* menu, header and footer background */
+	ul.sf-menu li.current,
+	ul.sf-menu li:hover,
+	div.header input.searchText,
+	div.header input.searchButton,
+	div.footer
+	{
+		background-color:#11445E;		
+	}
+	
+	/* menu and search field bootom line */
+	ul.sf-menu li.current,
+	ul.sf-menu li:hover,
+	div.header input.searchText,
+	div.header input.searchButton
+	{
+		border-bottom:solid 1px #2E81AA;
+	}
+	
+	/* background color for hover submenu */
+	ul.sf-menu li ul li:hover,
+	ul.sf-menu li ul li.sfHover
+	{
+		background-color:#E4EEF3 !important;	
+	}
+	
+	/* border bottom line for submenu */
+	ul.sf-menu li ul li,
+	ul.sf-menu li ul li:hover
+	{
+		border-bottom:solid 1px #E4EEF3;	
+	}
+	
+	/*****************************************************************/
+	/* Buttons																		  */
+	/*****************************************************************/
+	
+	/* button background */
+ 	input.button,	
+	a.button:link,a.button:visited,a.button:active
+	{
+		background-image:url('../../../images/_skins/bluemine/button.png');
+	}
+	
+	/* newsletter button */
+	div.footer input.footerNewsletterButton
+	{
+		background-image:url('../../../images/_skins/bluemine/newsletter_submit.png');
+	}
+	
+	/* search button */
+	div.header input.searchButton
+	{
+		background-image:url('../../../images/_skins/bluemine/search_submit.png');
+	}
+
+	/*****************************************************************/
+	/* Footer																		  */
+	/*****************************************************************/
+	
+	/* text color */
+	div.footer
+	{
+		color:#4B90B5;
+	}
+	
+	/* footer background  */
+	div.footer div.footerMain
+	{	
+ 		background-image:url('../../../images/_skins/bluemine/footer_background.png');	
+	}
+	
+	/* footer headers  */
+	div.footer h1.footerHeader
+	{
+		color:#8DBED8;
+	}
+	
+	/* footer top line  */
+	div.footer div.footerTopBar
+	{
+		border-color:#195674;
+	}
+
+	/* footer newsletter input field  */
+	div.footer input.footerNewsletterText,
+	div.footer input.footerNewsletterButton
+	{
+		background-color:#0E384E;
+		border-top:solid 1px #0C3042;
+		border-bottom:solid 1px #15506F;	
+	}
+	
+	/*****************************************************************/
+	/* Footer																		  */
+	/*****************************************************************/
+	
+	/* list bullet */
+	li
+	{
+		background-image:url('../../../images/_skins/bluemine/bullet.png');
+	}

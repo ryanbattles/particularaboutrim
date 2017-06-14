@@ -1,0 +1,10 @@
+	
+	div.header
+	{
+		background-image:url('../../../images/_skins/asparagus/header_bokeh_background.png');	
+	}
+	
+	div.header div.rss
+	{
+		background-image:url('../../../images/_skins/asparagus/header_bokeh_rss.png')
+	}

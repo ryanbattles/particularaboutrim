@@ -1,0 +1,114 @@
+
+	/*****************************************************************/
+	/* Base 																		     */
+	/*****************************************************************/
+	
+	form
+	{
+		margin:0px;
+		padding:0px;
+	}
+	
+	input,textarea,select
+	{
+		margin:0px;
+		padding:5px;
+		color:#555555;
+		line-height:100% !important;
+		font-size:1.3em;
+		font-family:arial,sans-serif;
+	}
+	
+	textarea
+	{
+		resize:none;
+	}
+	
+	input[type="text"],textarea
+	{
+		border:solid 1px #E2E2E2;
+	}
+	
+	/*****************************************************************/
+	/* Contact and comment forms 											     */
+	/*****************************************************************/
+	
+	/* hedaer */
+	h2.contactHeader
+	{
+		padding-left:30px;
+		background:url('../images/icon_contact.png') no-repeat 0px 3px;	
+	}
+
+	/* main section */
+	div.contactForm,
+	div.commentForm
+	{
+		height:100%;
+		overflow:hidden;
+		padding:20px;
+		border-radius:3px;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+		border-bottom:solid 1px #DCDCDC;
+		background-color:#EEEEEE;
+	}
+	
+	div.contactForm p,
+	div.commentForm p
+	{
+		margin-top:0px;
+		margin-bottom:0px;
+	}
+	
+	/* left section */
+	div.contactForm div.left,
+	div.commentForm div.left
+	{
+		float:left;
+	}
+	
+	/* right section */
+	div.contactForm div.right,
+	div.commentForm div.right
+	{
+		float:right;
+	}
+	
+	/* text and texarea background and border */
+	div.contactForm div.left input,
+	div.contactForm textarea,
+	div.commentForm div.left input,
+	div.commentForm textarea
+	{
+		border-radius:2px;
+		-moz-border-radius:2px;
+		-webkit-border-radius:2px;
+		background:#ffffff url('../images/input_background.png') repeat-x;
+	}
+	
+	/* text width */
+	div.contactForm input,
+	div.commentForm input
+	{
+		width:200px;
+	}
+	
+	/* textarea size */
+	div.contactForm textarea,
+	div.commentForm textarea
+	{
+		height:76px;
+		width:350px;
+		overflow-y:auto;
+	}
+	
+	/* button */
+	div.contactForm input.button,
+	div.commentForm input.button
+	{
+		clear:both;
+		width:100px;
+		margin-top:10px;
+	}
+	

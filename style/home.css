@@ -1,0 +1,115 @@
+
+	/*****************************************************************/
+	/* Home																			  */
+	/*****************************************************************/
+
+	/* top section */
+	div.homeBoxSection
+	{
+		clear:both;
+		padding-bottom:35px;
+		background:url('../images/home_divider.png') no-repeat center bottom;
+	}
+	
+	/* box */
+	div.homeBoxSection div.homeBox,
+	div.homeContent div.column
+	{
+		width:300px;
+	}
+	
+	/* first box/column */
+	div.homeBoxSection div.homeBoxA,
+	div.homeContent div.columnA
+	{
+		float:left;
+	}
+	
+	/* second box/column */
+	div.homeBoxSection div.homeBoxB,
+	div.homeContent div.columnB
+	{
+		float:left;
+		margin-left:30px;
+	}	
+	
+	/* third box/column */
+	div.homeBoxSection div.homeBoxC,
+	div.homeContent div.columnC
+	{
+		float:right;
+	}
+	
+	/* box top element */
+	div.homeBoxSection div.homeBox div.homeBoxTop
+	{
+		height:8px;
+		width:300px;
+		background:url('../images/home_box_top.png');
+	}
+	
+	/* box middle element */
+	div.homeBoxSection div.homeBox div.homeBoxMiddle
+	{
+		width:260px;
+		min-height:70px;
+		padding:10px 20px 15px 20px;
+		background:url('../images/home_box_middle.png') repeat-y;
+	}
+	
+	/* box bootom element */
+	div.homeBoxSection div.homeBox div.homeBoxBottom
+	{
+		height:18px;
+		width:300px;
+		background:url('../images/home_box_bottom.png');
+	}
+	
+	/* box image */
+	div.homeBoxSection div.homeBox div.homeBoxMiddle div.homeBoxImage
+	{
+		width:100%;
+		height:100%;
+		min-height:70px;
+		overflow:hidden;	
+	}
+	
+	/* first box image */
+	div.homeBoxSection div.homeBoxA div.homeBoxMiddle div.homeBoxImage
+	{
+		background:url('../images/infobar_icon1.png') no-repeat left center;
+	}
+	
+	/* second box image */
+	div.homeBoxSection div.homeBoxB div.homeBoxMiddle div.homeBoxImage
+	{
+		background:url('../images/infobar_icon2.png') no-repeat left center;
+	}
+	
+	/* third box image */
+	div.homeBoxSection div.homeBoxC div.homeBoxMiddle div.homeBoxImage
+	{
+		background:url('../images/infobar_icon3.png') no-repeat left center;
+	}
+	
+	/* box content */
+	div.homeBoxSection div.homeBox div.homeBoxMiddle div.homeBoxContent
+	{
+		width:180px;
+		float:right;
+		clear:both;
+	}
+	
+	/* box header */
+	div.homeBoxSection div.homeBox div.homeBoxMiddle div.homeBoxContent h1
+	{
+		margin-top:0px;
+		margin-bottom:10px;
+	}
+	
+	/* box paragraph */
+	div.homeBoxSection div.homeBox div.homeBoxMiddle div.homeBoxContent  p
+	{
+		margin-bottom:0px;
+	}
+	
