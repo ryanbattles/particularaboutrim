@@ -1,0 +1,207 @@
+/* Keep the original desktop layout; adapt its fixed widths on smaller screens. */
+@media (max-width: 991px) {
+  body#homePage,
+  body#innerPage {
+    background-image: none;
+  }
+
+  div.main {
+    width: calc(100% - 32px);
+    max-width: 960px;
+  }
+
+  div.header {
+    height: auto;
+    background: linear-gradient(#718b4d, #7d9954);
+    border-radius: 0 0 6px 6px;
+  }
+
+  div.header div.top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    height: auto;
+    padding: 16px;
+  }
+
+  div.header div.logo {
+    float: none;
+    flex: 0 1 500px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 500 / 140;
+    background-size: contain;
+    background-position: center;
+  }
+
+  div.header div.bottom {
+    margin-top: 0;
+    padding: 8px;
+  }
+
+  div.header div.menu {
+    float: none;
+  }
+
+  ul.sf-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  ul.sf-menu li {
+    float: none;
+    margin: 0;
+  }
+
+  ul.sf-menu a {
+    padding: 16px 14px;
+    text-align: center;
+  }
+
+  .mainContent {
+    height: auto;
+  }
+
+  .mainContent img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #sliderWrapper {
+    width: 100%;
+    background: none;
+  }
+
+  #slider {
+    transform-origin: top left;
+  }
+
+  #slider .nivo-controlNav {
+    left: 50%;
+    display: flex;
+    width: max-content;
+    transform-origin: center top;
+  }
+
+  #slider .nivo-controlNav a {
+    display: grid;
+    place-items: center;
+    float: none;
+    width: 44px;
+    height: 44px;
+    margin: 0;
+    background: none;
+  }
+
+  #slider .nivo-controlNav a::after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #ccc;
+  }
+
+  #slider .nivo-controlNav a.active::after,
+  #slider .nivo-controlNav a:hover::after {
+    background: #537931;
+  }
+
+  #slider .nivo-controlNav a:focus-visible {
+    outline: 2px solid #537931;
+    outline-offset: -2px;
+  }
+
+  div.homeBoxSection {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+    height: auto;
+    background: none;
+    padding-bottom: 12px;
+  }
+
+  div.homeBoxSection div.homeBox {
+    float: none;
+    width: auto;
+    margin: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+  }
+
+  div.homeBoxSection div.homeBox div.homeBoxTop,
+  div.homeBoxSection div.homeBox div.homeBoxBottom {
+    display: none;
+  }
+
+  div.homeBoxSection div.homeBox div.homeBoxMiddle {
+    width: auto;
+    min-height: 0;
+    padding: 20px;
+    background: none;
+  }
+
+  div.homeBoxSection div.homeBox div.homeBoxMiddle div.homeBoxImage {
+    height: auto;
+    min-height: 0;
+    background: none;
+  }
+
+  div.homeBoxSection div.homeBox div.homeBoxMiddle div.homeBoxContent {
+    float: none;
+    width: auto;
+  }
+
+  div.footer div.footerMain {
+    height: auto;
+    min-height: 120px;
+    padding: 20px 0;
+  }
+
+  div.footer p {
+    overflow-wrap: anywhere;
+  }
+}
+
+@media (max-width: 767px) {
+  .mainContent p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  div.homeBoxSection,
+  .contactDetails {
+    grid-template-columns: 1fr;
+  }
+
+  div.image.imageRight {
+    float: none;
+    display: block;
+    width: fit-content;
+    max-width: calc(100% - 16px);
+    margin: 20px auto;
+  }
+
+  .contactPage {
+    padding-bottom: 24px;
+  }
+
+  .contactIntro h1 {
+    font-size: 32px;
+  }
+
+  .contactIntro {
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  ul.sf-menu {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

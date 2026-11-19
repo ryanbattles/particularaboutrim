@@ -14,6 +14,9 @@
 
 	body
 	{   
+		display:flex;
+		flex-direction:column;
+		min-height:100vh;
 		color:#555;
 		margin:0px;
 		padding:0px;
@@ -61,6 +64,16 @@
 		width:960px;
 		margin-left:auto;
 		margin-right:auto;
+	}
+
+	body > div.main
+	{
+		flex:1 0 auto;
+	}
+
+	body > div.footer
+	{
+		flex-shrink:0;
 	}
 	
 	div.path
